@@ -133,7 +133,7 @@ display:none;
 
 #l,
 #l {
-	width: 650px;
+	width: 630px;
 	padding-right: 20px;
 	float: left;
 	margin-right: 20px;
@@ -144,7 +144,7 @@ display:none;
 	}
 
 #r {
-	width: 250px;
+	width: 270px;
 	float: right;
 	margin-right:15px;
 	}
@@ -167,6 +167,21 @@ display:none;
 
 
 
+#home_content_l{
+   width:610px; height:600px; position:relative; margin:20px; padding:0; background:#887030; border:2px solid #56421d;
+}
+
+
+#news{
+    width:264px; height:290px; position:relative; margin:5px; padding:0;
+    background: url(/images/home/home_newsbox.jpg) no-repeat;
+    margin-top:20px;
+
+}
+#quick_contact{
+    width:264px; height:312px; position:relative; margin:5px; padding:0;
+    background: url(/images/home/home_contactbox.jpg) no-repeat;
+}
 
 /* FOOTER PANEL*/
 #footerPanel{width:961px; height:100px; position:relative; margin:0 auto; padding:0; background:#0a0a0a; color:#757841; font-size:18px;}
