@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="shortcut icon" href="images/gfw/favicon.ico" type="image/x-icon" />
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  <title><?= $title ?></title>
+  <?= $js ?><?= $css ?>
+  <link rel="stylesheet" type="text/css" href="css/gfw.css">  <link rel="stylesheet" type="text/css" href="css/menu.css">
+<script src="js/menu.js" language="JavaScript" type="text/JavaScript"></script>
+
+</head>
+<body>
+<table id="maintable" border="0" cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <td style="height:106px;  text-align: right; color:#57531C; "><IMG src="images/gfw/gfw.jpg" alt="GreenFrameWork" align="left" border="0"> </td>
+    </tr>
+    <tr>
+      <td valign="bottom"  style="font-size:10px; text-align: right; color:#57531C; ">
+      !@#$%!@#$%!@#$%!@#$%!@#$%!@#$%!@#$%!@#$%!@#$%
+      </td>
+    </tr>
+
+
+    <tr>
+      <td  style="text-align: left; ">
+		<?= $menu ?>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; background-color: #F0F2DE; height:350px"><?= $content.'' . $this->plugin_output  ?></td>
+    </tr>
+    <tr>
+      <td valign="top"  style="font-size:10px; text-align: left; color:#57531C; " >!@#$%!@#$%!@#$%!@#$%!@#$%!@#$%!@#$%!@#$%!@#$%</td>
+    </tr>
+    <tr>
+      <td valign="top" align="center"  id="footer" ><br/><?= $footer ?>&nbsp; Website
+content
+Copyright &#169; 2008 - LegreenSolutions :: <a target="_blank" href="http://legreensolutions.com">legreensolutions.com</a></td>
+    </tr>
+
+  </tbody>
+</table>
+<br>
+<div style="position:absolute; width:100%; height:20px; top:10px; text-align:right; padding-right:10px; "><?= $language ?></div>
+</body>
+</html>

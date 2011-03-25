@@ -1,0 +1,24 @@
+
+.login_caption{
+font-weight : bold;
+text-align:left;
+height:20px; 
+}
+
+.login_box{
+ font-weight:bold; font-size:13px; 
+border:1px; border-color:#454216; border-style:solid; height:22px; width:200px;padding-left:5px; padding-top:3px; text-align:left;
+}
+
+.login_forgot_link{
+  font-size:10px; 
+}
+.login_forgot_link:hover{
+   font-size:10px; 
+}
+
+.errormessage_login{
+font-weight : bold;
+text-align:center;
+color:#92151D;
+}

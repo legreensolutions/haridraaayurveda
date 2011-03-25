@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta name="author" content="haridraaayurveda" />
+<meta name="keywords" content="haridraa ayurveda center for treatment and research india kerala hospital " />
+<meta name="description" content="haridraa ayurveda center for treatment and research" />
+<title><?= $title ?> </title>
+<link href="css/home.css" rel="stylesheet" type="text/css">
+<?= $js ?><?= $css ?>
+<link rel="shortcut icon" href="images/favicon.ico">
+</head><body>
+
+<div id="contactPanel">
+  <ul>
+    <li> <a href="contactus.php" title="Contact Us"> <span>Contact Us</span> </a> </li>
+  </ul>
+</div>
+
+
+<div id="menuPanel">
+<?= $haridraa_menu ?>
+
+</div>
+
+<div id="slidePanel">
+  <div class="certification"></div>
+  <div class="effective_ayurveda"></div>
+  <div class="lotus"></div>
+  <ul class="logo">
+    <li> <a href="index.php" title="Haridraa Ayurveda"> <span>Haridraa Ayurveda</span> </a> </li>
+  </ul>
+
+
+
+</div>
+
+
+<div id="bodyPanel">
+		<div id="l">
+            <?= $content.'' . $this->plugin_output  ?>
+		</div>
+		<div id="r">
+			<h2>News </h2>
+ <?= $news  ?>
+
+		</div>
+</div>
+
+<div id="footerPanel">
+<?= $footer ?>
+</div>
+
+
+</body></html>
+

@@ -1,0 +1,150 @@
+/* General */
+
+body{background:#a1ba67; color:#0F0F0F; font:15px/20px Arial, Helvetica, sans-serif; margin:25px 0 0; padding:0;}
+div, ul, h1, h2, h3, li, p, img{margin:0; padding:0;}
+ul{list-style-type:none;}
+
+/* CONTACTUS PANEL*/
+#contactPanel{width:961px; height:24px; position:relative; margin:0 auto; padding:0;}
+
+#contactPanel ul {
+left:830px;position:relative;
+}
+#contactPanel ul li a span{
+display:none;
+}
+#contactPanel ul li a{
+  background: url(/images/menu/contact_us.jpg) no-repeat;
+  width: 102px;
+  height: 24px;
+  display: block;
+}
+
+
+
+
+/* MENU PANEL*/
+#menuPanel{width:961px; height:45px; position:relative; margin:0 auto; padding:0; background:green;}
+
+#menuPanel ul {
+  list-style-type: none;
+}
+#menuPanel ul li {
+  float: left;
+}
+#menuPanel ul li a {
+  display: block;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+#menuPanel ul li a span {
+   display: none;
+}
+
+#menuPanel ul li.home a {
+  width: 118px;
+  height: 45px;
+  background-image: url(/images/menu/home.jpg);
+}
+#menuPanel ul li.home a:hover {
+  background-image: url(/images/home_menu/home.jpg);
+}
+
+
+#menuPanel ul li.about_us a {
+  width: 208px;
+  height: 45px;
+  background-image: url(/images/menu/about_us.jpg);
+}
+#menuPanel ul li.about_us a:hover {
+  background-image: url(/images/home_menu/about_us.jpg);
+}
+
+#menuPanel ul li.about_ayurveda a {
+  width: 212px;
+  height: 45px;
+  background-image: url(/images/menu/abtayur.jpg);
+}
+#menuPanel ul li.about_ayurveda a:hover {
+  background-image: url(/images/home_menu/abtayur.jpg);
+}
+
+
+
+
+#menuPanel ul li.facilities a {
+  width: 138px;
+  height: 45px;
+  background-image: url(/images/menu/facilities.jpg);
+}
+#menuPanel ul li.facilities a:hover {
+  background-image: url(/images/home_menu/facilities.jpg);
+}
+
+#menuPanel ul li.testimonials a {
+  width: 170px;
+  height: 45px;
+  background-image: url(/images/menu/testimonials.jpg);
+}
+#menuPanel ul li.testimonials a:hover {
+  background-image: url(/images/home_menu/testimonials.jpg);
+}
+
+#menuPanel ul li.news a {
+  width: 115px;
+  height: 45px;
+  background-image: url(/images/menu/news.jpg);
+}
+#menuPanel ul li.news a:hover {
+  background-image: url(/images/home_menu/news.jpg);
+}
+
+/* SLIDE PANEL*/
+#slidePanel{width:961px; height:411px; position:relative; margin:0 auto; padding:0; background-image: url(/images/home/slide/home_mainimage.jpg);}
+
+#slidePanel .certification { position: relative; left:688px; top:30px; height:68px; width:273px;background-image: url(/images/home/cert.png);}
+
+#slidePanel .effective_ayurveda{position: relative; left:650px; top:30px; height:64px; width:182px;background-image: url(/images/home/effeayur.png);}
+
+
+#slidePanel .lotus { position:relative; left:445px; top:0px; width:516px; height:286px; background-image: url(/images/home/lotus.png); }
+
+#slidePanel .logo {
+     position:relative; left:550px; top:-230px;
+}
+
+#slidePanel .logo li a span{
+display:none;
+}
+#slidePanel .logo li a{
+  background: url(/images/home/home_logo.png) no-repeat;
+  width: 320px;
+  height: 124px;
+  display: block;
+}
+
+
+
+
+/* BODY PANEL*/
+#bodyPanel{width:959px; height:640px; position:relative; margin:0 auto; padding:0; background:#fff; border:1px solid #000; }
+
+
+/* FOOTER PANEL*/
+#footerPanel{width:961px; height:100px; position:relative; margin:0 auto; padding:0; background:#0a0a0a; color:#757841; font-size:18px;}
+
+#footerPanel #footer_menu {position:relative; width:961px;}
+#footerPanel #footer_menu ul {
+  list-style-type: none;
+}
+#footerPanel #footer_menu ul li {
+  float: left;
+  margin-top:12px;
+  margin-left:60px;
+}
+#footerPanel  #footer_menu ul li a {color:#757841; text-decoration:none}
+#footerPanel  #footer_menu  ul li a span {color:#757841;}
+
+#footerPanel #copyright { width:500px; margin:0 auto; top:30px; position:relative;font-size:12px;}
+

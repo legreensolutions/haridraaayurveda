@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta name="author" content="haridraaayurveda" />
+<meta name="keywords" content="haridraa ayurveda center for treatment and research india kerala hospital " />
+<meta name="description" content="haridraa ayurveda center for treatment and research" />
+<title><?= $title ?> </title>
+<link href="css/default.css" rel="stylesheet" type="text/css">
+<?= $js ?><?= $css ?>
+<link rel="shortcut icon" href="images/favicon.ico">
+<?php
+if(isset($_SESSION[SESSION_TITLE.'flash_redirect_page']) && trim($_SESSION[SESSION_TITLE.'flash_redirect_page'])!=""){
+	$flash_redirect_page = $_SESSION[SESSION_TITLE.'flash_redirect_page'];
+	$_SESSION[SESSION_TITLE.'flash_redirect_page'] = "";
+}else{
+	$flash_redirect_page = $gfw_default_redirect_page;
+}
+
+if(isset($_SESSION[SESSION_TITLE.'flash_refresh_page']) && trim($_SESSION[SESSION_TITLE.'flash_refresh_page'])!="" && trim($_SESSION[SESSION_TITLE.'flash_refresh_page']) > 0){
+	$flash_refresh_page = $_SESSION[SESSION_TITLE.'flash_refresh_page'];
+	$_SESSION[SESSION_TITLE.'flash_refresh_page'] = "";
+}else{
+	$flash_refresh_page = 6;
+}
+
+?>
+<meta http-equiv="Refresh" content="<?= $flash_refresh_page ?>;url=<?= $flash_redirect_page ?>"/>
+</head>
+
+<body>
+
+<div id="contactPanel">
+  <ul>
+    <li> <a href="contactus.php" title="Contact Us"> <span>Contact Us</span> </a> </li>
+  </ul>
+</div>
+
+
+<div id="menuPanel">
+<?= $haridraa_menu ?>
+
+</div>
+<?= $slide_panel ?>
+
+<div id="bodyPanel">
+<?= $content.'' . $this->plugin_output  ?>
+
+</div>
+
+<div id="footerPanel">
+<?= $footer ?>
+</div>
+
+
+</body></html>
+
