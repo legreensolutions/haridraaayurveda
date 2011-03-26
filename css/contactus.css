@@ -1,0 +1,74 @@
+/* SLIDE PANEL*/
+#slidePanel{width:961px; height:349px; position:relative; margin:0 auto; padding:0; background-image: url(/images/contact_us/contactus_slide.jpg);}
+
+#slidePanel .phone { position: relative; left:600px; top:170px; height:67px; width:343px;background-image: url(/images/contact_us/roundrect.png);}
+#slidePanel .phone .ico { position: relative; height:36px; width:36px; top:15px; left:15px; background-image: url(/images/contact_us/phone_ico.png); float:left;}
+
+#slidePanel .phone .number { position: relative; height:36px; width:300px; top:25px; left:35px;float:left;
+    font-weight:bold;
+    font-size:26px;
+}
+
+#slidePanel .email { position: relative; left:600px; top:190px; height:67px; width:343px;background-image: url(/images/contact_us/roundrect.png);}
+
+#slidePanel .email .ico { position: relative; height:28px; width:76px; top:20px; left:8px; background-image: url(/images/contact_us/email_ico.png); float:left;}
+
+#slidePanel .email .address { position: relative; height:36px; width:250px; top:25px; left:20px;float:left;
+
+}
+
+#slidePanel .email .address a{
+    font-weight:bold;
+    font-size:22px;
+    text-decoration: none;
+    color: #000;
+
+}
+
+#slidePanel .info {
+     position:relative; left:50px; top:-100px;
+     background-image: url(/images/contact_us/info_bg.png);
+     width:528px; height:299px;
+}
+
+#slidePanel .info span{
+    position:relative;
+    top:25px;
+    left:40px;
+    font-weight:bold;
+    font-size:24px;
+    width:400px;
+    display: block;
+    line-height:110%;
+    color:#3c522b;
+}
+
+
+#slidePanel .logo {
+     position:relative;float:left;
+     left:30px;
+     top:10px;
+}
+
+#slidePanel .contact_ico {
+     position:relative;  width:89px; height:53px; float:left;
+     left:90px;
+     top:10px;
+     background-image: url(/images/contact_us/contact_ico.png);
+}
+
+#slidePanel .logo li a span{
+display:none;
+}
+#slidePanel .logo li a{
+  background: url(/images/contact_us/logo.png) no-repeat;
+  width: 320px;
+  height: 124px;
+  display: block;
+}
+
+
+
+/* BODY PANEL*/
+#bodyPanel{width:957px; height:440px; position:relative; margin:0 auto; padding:0; background:#5e982a; border:2px solid #416a1e; }
+
