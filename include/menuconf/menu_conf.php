@@ -58,14 +58,14 @@ $menu_list[$i][submenu] = "user_menu_employee";
 $menu_list[$i][page_name]="";
 $i++;
 
-$menu_list[$i][caption] = $this->gsconf->get_conf(CONF_TYPE_OBJECT_CAPTIONS,'g_menu_guestbook',"g_menuconf","Guest Book");
-$menu_list[$i][url]="guestbook.php";
+$menu_list[$i][caption] = $this->gsconf->get_conf(CONF_TYPE_OBJECT_CAPTIONS,'g_menu_guestbook',"g_menuconf","Messages");
+$menu_list[$i][url]="messages.php";
 $menu_list[$i][usertype] = 0;
 $menu_list[$i][submenu] = "guestbook_menu";
 $menu_list[$i][page_name]="guestbook";
 $i++;
 
-$menu_list[$i][caption] = $g_menu_Login; 
+$menu_list[$i][caption] = $g_menu_Login;
 $menu_list[$i][url]="login.php";
 $menu_list[$i][usertype] = 0;
 $menu_list[$i][page_name]="login";
@@ -181,13 +181,8 @@ $i++;
 
 GLOBAL $guestbook_menu;
 
-$guestbook_menu[$i][caption] = $this->gsconf->get_conf(CONF_TYPE_OBJECT_CAPTIONS,'g_menu_guestbook',"g_menuconf","Guest Book");
-$guestbook_menu[$i][url]="guestbook.php";
-$guestbook_menu[$i][usertype] = 0;
-$i++;
-
-$guestbook_menu[$i][caption] = $this->gsconf->get_conf(CONF_TYPE_OBJECT_CAPTIONS,'guestbook_menu_admin_list_guestbooks',"g_menuconf","List Guest Book" );
-$guestbook_menu[$i][url]="admin_list_guestbooks.php"; 
+$guestbook_menu[$i][caption] = $this->gsconf->get_conf(CONF_TYPE_OBJECT_CAPTIONS,'guestbook_menu_admin_list_messages',"g_menuconf","List Messages" );
+$guestbook_menu[$i][url]="admin_list_messages.php";
 $guestbook_menu[$i][usertype] = USERTYPE_ADMIN;
 $i++;
 
@@ -197,3 +192,4 @@ $i++;
 
 
 ?>
+

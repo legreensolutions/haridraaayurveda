@@ -100,29 +100,6 @@ display:none;
   background-image: url(/images/home_menu/news.jpg);
 }
 
-/* SLIDE PANEL*/
-#slidePanel{width:961px; height:411px; position:relative; margin:0 auto; padding:0; background-image: url(/images/home/slide/home_mainimage.jpg);}
-
-#slidePanel .certification { position: relative; left:688px; top:30px; height:68px; width:273px;background-image: url(/images/home/cert.png);}
-
-#slidePanel .effective_ayurveda{position: relative; left:650px; top:30px; height:64px; width:182px;background-image: url(/images/home/effeayur.png);}
-
-
-#slidePanel .lotus { position:relative; left:445px; top:0px; width:516px; height:286px; background-image: url(/images/home/lotus.png); }
-
-#slidePanel .logo {
-     position:relative; left:550px; top:-230px;
-}
-
-#slidePanel .logo li a span{
-display:none;
-}
-#slidePanel .logo li a{
-  background: url(/images/home/home_logo.png) no-repeat;
-  width: 320px;
-  height: 124px;
-  display: block;
-}
 
 
 
@@ -134,17 +111,25 @@ display:none;
 /* FOOTER PANEL*/
 #footerPanel{width:961px; height:100px; position:relative; margin:0 auto; padding:0; background:#0a0a0a; color:#757841; font-size:18px;}
 
-#footerPanel #footer_menu {position:relative; width:961px;}
+#footerPanel #footer_menu {position:relative; width:960px; float: left;}
 #footerPanel #footer_menu ul {
   list-style-type: none;
+  left:60px;
 }
 #footerPanel #footer_menu ul li {
   float: left;
-  margin-top:12px;
+  margin-top:20px;
   margin-left:60px;
 }
 #footerPanel  #footer_menu ul li a {color:#757841; text-decoration:none}
 #footerPanel  #footer_menu  ul li a span {color:#757841;}
 
 #footerPanel #copyright { width:500px; margin:0 auto; top:30px; position:relative;font-size:12px;}
+
+
+/* MISC*/
+.page_caption {
+font-size:22px;
+font-weight:bold;
+}
 

@@ -186,13 +186,14 @@ display:none;
 /* FOOTER PANEL*/
 #footerPanel{width:961px; height:100px; position:relative; margin:0 auto; padding:0; background:#0a0a0a; color:#757841; font-size:18px;}
 
-#footerPanel #footer_menu {position:relative; width:961px;}
+#footerPanel #footer_menu {position:relative; width:960px; float: left;}
 #footerPanel #footer_menu ul {
   list-style-type: none;
+  left:60px;
 }
 #footerPanel #footer_menu ul li {
   float: left;
-  margin-top:12px;
+  margin-top:20px;
   margin-left:60px;
 }
 #footerPanel  #footer_menu ul li a {color:#757841; text-decoration:none}
