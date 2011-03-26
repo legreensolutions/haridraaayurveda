@@ -199,5 +199,5 @@ display:none;
 #footerPanel  #footer_menu ul li a {color:#757841; text-decoration:none}
 #footerPanel  #footer_menu  ul li a span {color:#757841;}
 
-#footerPanel #copyright { width:500px; margin:0 auto; top:30px; position:relative;font-size:12px;}
+#footerPanel #copyright { width:500px; height:10px; margin:0 auto; top:30px; left:250px; position:relative;font-size:12px; float: left;}
 

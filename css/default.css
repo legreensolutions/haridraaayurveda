@@ -124,12 +124,37 @@ display:none;
 #footerPanel  #footer_menu ul li a {color:#757841; text-decoration:none}
 #footerPanel  #footer_menu  ul li a span {color:#757841;}
 
-#footerPanel #copyright { width:500px; margin:0 auto; top:30px; position:relative;font-size:12px;}
+#footerPanel #copyright { width:500px; height:20px; margin:0 auto; top:30px;  left:250px; position:relative;font-size:12px; float: left; }
 
 
 /* MISC*/
 .page_caption {
 font-size:22px;
 font-weight:bold;
+}
+
+
+.error_description {
+    font-size:18px;
+    font-weight:bold;
+    color:red;
+    text-align: center;
+
+}
+
+
+.form_caption{
+    font-size:16px;
+    font-weight:bold;
+    color:#000;
+    text-align: left;
+    vertical-align:top;
+}
+
+.form_tbl td input[type=text] {
+    width: 350px;
+}
+.form_tbl td textarea{
+    width: 420px;
 }
 

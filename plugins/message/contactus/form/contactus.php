@@ -1,6 +1,6 @@
         <!-- form start-->
             <form  target="_self" method="post" action="<?= $current_url?>" name="frmguestbook">
-                <table cellspacing="5" border="0" cellpadding="0" align="center">
+                <table cellspacing="5" border="0" cellpadding="0" align="center" class="form_tbl">
                 <tbody>
                 <tr>
                     <td colspan="2" align="center" class="page_caption">
@@ -8,42 +8,35 @@
                     </td>
                 </tr>
                 <tr>
-                    <td colspan="2" class="errormessage_passwd" align="center" >
+                    <td colspan="2" align="center" class="error_description" >
                        <? echo $myuser->error_description; echo $guestbook_error ;?>
                     </td>
                 </tr>
                 <tr>
-                    <td valign="bottom" align="left"  ><b><?= $CAP_name ?></b></td>
-                    <td valign="top" align="left">
-                    <input style="width:350px" type="text" name="txtname" id="txtname" value="" >
-                    </td>
+                    <td class="form_caption" ><?= $CAP_name ?></td>
+                    <td><input type="text" name="txtname" id="txtname" value="" ></td>
                 </tr>
                 <tr>
-                    <td align="left" ><b><?= $CAP_address ?></b></td>
-                    <td valign="top" align="left">
-                    <input style="width:350px"  type="text" name="txtaddress" id="txtaddress" >
-                    </td>
+                    <td class="form_caption" ><?= $CAP_address ?></td>
+                    <td><input type="text" name="txtaddress" id="txtaddress" ></td>
                 </tr>
                 <tr>
-                    <td align="left" ><b><?= $CAP_phone ?></b></td>
-                    <td valign="top" align="left">
-                    <input style="width:350px"  type="text" name="txtphone" id="txtphone" ></td>
+                    <td class="form_caption" ><?= $CAP_phone ?></td>
+                    <td><input type="text" name="txtphone" id="txtphone" ></td>
                 </tr>
                 <tr>
-                    <td align="left" ><b><?= $CAP_emailid ?></b></td>
-                    <td valign="top" align="left">
-                    <input style="width:350px"  type="text" name="txtemailid" id="txtemailid" ></td>
+                    <td class="form_caption" ><?= $CAP_emailid ?></td>
+                    <td><input type="text" name="txtemailid" id="txtemailid" ></td>
                 </tr>
                 <tr>
-                    <td align="left" ><b><?= $CAP_subject ?></b></td>
-                    <td valign="top" align="left">
-                    <input style="width:350px"  type="text" name="txtsubject" id="txtsubject" ></td>
+                    <td class="form_caption" ><?= $CAP_subject ?></td>
+                    <td><input type="text" name="txtsubject" id="txtsubject" ></td>
                 </tr>
                 <tr>
 
-                    <td colspan="2" valign="top" align="left">
-                    <b><?= $CAP_content ?></b><br>
-                    <textarea style="width:418px;" rows="8" name="txtcontent" id="txtcontent" ></textarea></td>
+                    <td colspan="2" valign="top" align="left"  class="form_caption" >
+                    <?= $CAP_content ?><br>
+                    <textarea rows="8" name="txtcontent" id="txtcontent" ></textarea></td>
                 </tr>
                 <tr>
                     <td colspan="2" align="center">
