@@ -3,8 +3,49 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-$tmp_ayurveda_content = '<p>Ayurveda believes in "five great elements" (Devanāgarī: पंचतत्व‌; earth, water, fire, air and space) forming the universe, including the human body. Blood, flesh, fat, bone, marrow, chyle, and semen are believed to be the seven primary constituent elements (Devanāgarī: सप्तधातु) of the body. Ayurveda stresses a balance of three substances: wind/spirit/air, phlegm, and bile, each representing divine forces. According to Ayurvedic beliefs, the doctrine of these three Doshas (Devanāgarī: त्रिदॊश्)—vata (wind/spirit/air), pitta (bile) and kapha (phlegm)—is important. Traditional beliefs hold that humans possess a unique constellation of Doshas. In Ayurveda, the human body has 20 Guna (Devanāgarī: गुन, meaning quality). Surgery and surgical instruments are employed. It is believed that building a healthy metabolic system, attaining good digestion, and proper excretion leads to vitality. Ayurveda also focuses on exercise, yoga, meditation, and massage.</p>			<p>The concept of <i><a href="#" title="Panchakarma">Panchakarma</a></i> (Devanāgarī: पंचकर्म‌) is believed to eliminate toxic elements from the body. Eight disciplines of Ayurveda treatment, called Ashtanga (Devanāgarī: अष्टांग), are given below:<ul><li><a href="#" title="Surgery">Surgery</a> (<i>Shalya-chikitsa</i>).</li><li>Treatment of diseases above the <a href="#" title="Clavicle">clavicle</a> (<i>Salakyam</i>).</li><li>Internal <a href="#" title="Medicine">medicine</a> (<i>Kaaya-chikitsa</i>).</li><li><a href="#" title="Demonic possession">Demonic possession</a> (<i><a href="/wiki/Bhuta" title="Bhuta" class="mw-redirect">Bhuta</a> <a href="#" title="VIDYA">vidya</a></i>): Ayurveda believes in demonic intervention and—as a form of traditional medicine—identifies a number of ways to counter the supposed effect of these interferences. <i>Bhuta vidya</i> has been called psychiatry.</li><li><a href="#" title="Paediatrics" class="mw-redirect">Paediatrics</a> (<i>Kaumarabhrtyam</i>).</li><li><a href="#" title="Toxicology">Toxicology</a> (<i>Agadatantram</i>).</li><li>Prevention and building <a href="#" title="Immunity">immunity</a> (<i><a href="#" title="Rasayana">rasayanam</a></i>).</li><li><a href="#" title="Aphrodisiacs" class="mw-redirect">Aphrodisiacs</a> (<i>Vajikaranam</i>).</li></p>';
+$head_beyond_healing = 'Beyond Healing';
+$left_beyond_healing = 'LEFT Beyond Healing';
+$right_beyond_healing = 'RIGHT Beyond Healing';
 
- echo $this->gsconf->get_conf(CONF_TYPE_TEXT,'ayurveda_content','ayurveda',$tmp_ayurveda_content);
+
+$head_treatments_available = 'Treatments Available';
+$left_treatments_available = 'LEFT Treatments Available';
+$right_treatments_available = 'RIGHT Treatments Available';
 ?>
+
+
+
+
+
+<div id="beyond_healing">
+    <div id="heading"><?php echo $this->gsconf->get_conf(CONF_TYPE_TEXT,'head_beyond_healing','ayurveda',$head_beyond_healing); ?></div>
+    <div id="left">
+        <?php echo $this->gsconf->get_conf(CONF_TYPE_TEXT,'left_beyond_healing','ayurveda',$left_beyond_healing); ?>
+    </div>
+    <div id="right">
+        <?php echo $this->gsconf->get_conf(CONF_TYPE_TEXT,'right_beyond_healing','ayurveda',$right_beyond_healing); ?>
+    </div>
+</div>
+
+<div id="treatments">
+    <div id="heading"><?php echo $this->gsconf->get_conf(CONF_TYPE_TEXT,'head_treatments_available','ayurveda',$head_treatments_available); ?></div>
+    <div id="left">
+        <?php echo $this->gsconf->get_conf(CONF_TYPE_TEXT,'left_treatments_available','ayurveda',$left_treatments_available); ?>
+    </div>
+    <div id="right">
+        <?php echo $this->gsconf->get_conf(CONF_TYPE_TEXT,'right_treatments_available','ayurveda',$right_treatments_available); ?>
+    </div>
+</div>
+
+
+<div id="contactus_form">
+    <div id="title">
+
+    </div>
+
+    <div id="form">
+        <?php echo $contactus_form; ?>
+    </div>
+
+</div>
 
