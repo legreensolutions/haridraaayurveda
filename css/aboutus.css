@@ -1,0 +1,121 @@
+/* SLIDE PANEL*/
+#slidePanel{width:961px; height:246px; position:relative; margin:0 auto; padding:0; background-image: url(/images/about_us/aboutus_slide.jpg);}
+#slidePanel .logo {
+     position:relative;float:left;
+     left:620px;
+     top:50px;
+}
+#slidePanel .logo li a span{
+display:none;
+}
+#slidePanel .logo li a{
+  background: url(/images/about_us/logo.png) no-repeat;
+  width: 320px;
+  height: 124px;
+  display: block;
+}
+
+/* BODY PANEL*/
+#bodyPanel{width:956px; height:850px; position:relative; margin:0 auto; padding:0; background:#a79e75; border:3px solid #4f4a37; }
+
+
+
+#beyond_healing{
+    width:890px; height:400px; position:relative;
+    background:#ceb984;
+    border: 3px solid #8b7e5c;
+    top:20px;
+    left:30px;
+}
+
+#beyond_healing #heading {
+    width:890px; height:30px; position::relative;
+    color:#3f1e17; margin-top:10px;
+    text-align:center; font-size:28px;
+    font-weight:bold;
+
+}
+
+
+#beyond_healing #left {
+    width:400px; height:330px; position::relative; float:left;
+    margin-left:30px; margin-top:20px;
+    text-align:justify; font-size:16px;  color:#3f1e17;
+
+}
+#beyond_healing #right {
+    width:400px; height:330px; position::relative; float:left;
+    margin-left:30px; margin-top:20px;
+    text-align:justify; font-size:16px;  color:#3f1e17;
+
+}
+
+
+
+#treatments{
+    width:600px; height:360px; position:relative; float:left;
+    background:#ceb984;
+    border: 3px solid #8b7e5c;
+    top:50px;
+    left:30px;
+}
+#treatments #heading {
+    width:600px; height:30px; position::relative;
+    color:#3f1e17; margin-top:10px;
+    text-align:center; font-size:28px;
+    font-weight:bold;
+
+}
+
+#treatments #left {
+    width:280px; height:300px; position::relative; float:left;
+    margin-left:10px; margin-top:10px;
+    text-align:justify; font-size:16px;  color:#3f1e17;
+
+}
+#treatments #right {
+    width:280px; height:300px; position::relative; float:left;
+    margin-left:10px; margin-top:10px;
+    text-align:justify; font-size:16px;  color:#3f1e17;
+
+}
+
+
+
+
+
+
+
+#quick_contact {
+    width:258px; height:306px; position:relative; float:left;
+    background: url(/images/about_us/contactbox_bg.png) no-repeat;
+    top:80px;
+    left:60px;
+
+}
+
+#quick_contact #title{
+    width:241px; height:42px; position:relative;
+    background: url(/images/about_us/contactbox_title.png) no-repeat;
+    top:10px;
+    left:6px;
+}
+
+
+#quick_contact #form{
+    width:240px; height:240px; position:relative;
+    top:15px;
+    left:10px;
+
+}
+#quick_contact #form input[type=text]{
+    width:230px; height:20px;font-size:18px;
+}
+#quick_contact #form textarea{
+    width:230px; height:150px;font-size:18px;
+}
+
+#quick_contact #form input[type=submit]{
+    position:relative; left:160px;
+}
+

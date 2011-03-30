@@ -10,7 +10,7 @@ $page = new gsPage;
 	$page->current_url = $current_url;	// current url for pages
 	$page->title = "Haridraa Ayurveda";	// page Title
 	$page->page_name = 'aboutus';		// page name for menu and other purpose
-	$page->layout = 'haridraa_default.html';		// layout name
+	$page->layout = 'haridraa_aboutus.html';		// layout name
 
 	$page->conf_list = array("conf.php");
 	$page->menuconf_list = array("menu_conf.php");
@@ -18,7 +18,7 @@ $page = new gsPage;
 
 	$page->function_list = array("functions.php");
 	$page->class_list = array("class_user.php","class_gspagination.php");
-	$page->pageconf_list = array("index.php");
+	$page->pageconf_list = array("haridraa_aboutus.html");
 
 	$index=0;
 	$content_list[$index]['file_name']='inc_language.php';
@@ -26,6 +26,9 @@ $page = new gsPage;
 	$index++;
 	$content_list[$index]['file_name']='inc_haridraa_menu.php';
 	$content_list[$index]['var_name']='haridraa_menu';
+	$index++;
+	$content_list[$index]['file_name']='inc_quick_contact.php';
+	$content_list[$index]['var_name']='quick_contact';
 	$index++;
 	$content_list[$index]['file_name']='inc_aboutus.php';
 	$content_list[$index]['var_name']='content';
