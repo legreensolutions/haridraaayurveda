@@ -165,6 +165,51 @@ display:none;
 	margin: 0;
 	}
 
+#head_home{
+    position:relative;
+    width:600px; height:30px; top:10px; padding-right:10px;
+    text-align:right; font-size:28px; font-weight:bold; font-style: italic;
+    color:#ead385;
+
+}
+
+#content_top{
+    position:relative; margin: 20px 10px;
+    width:600px; height:270px;
+
+}
+#content_top #content{
+    position:relative; float:left;
+    width:380px; height:280px;
+    text-align:justify; font-size:16px;
+    line-height:110%;
+    color:#fff;
+}
+#content_top #image{
+    position:relative; float:left;  margin-left:10px;
+    width:200px; height:261px;
+}
+
+
+
+#content_bottom{
+    position:relative; margin: 0px 10px;
+    width:600px; height:255px;
+
+}
+
+#content_bottom #content{
+    position:relative; float:left;margin-left:10px;
+    width:390px; height:250px;
+    text-align:justify; font-size:15px;
+    line-height:110%;
+    color:#fff;
+}
+#content_bottom #image{
+    position:relative; float:left;
+    width:187px; height:220px;
+
+}
 
 
 #home_content_l{
@@ -178,6 +223,13 @@ display:none;
     margin-top:20px;
 
 }
+#news #content{
+    width:210px; height:205px; position:relative; padding:6px;
+    left:22px; top:55px;
+    text-align:left; font-size:15px;
+    line-height:110%; color:#ead385;
+}
+
 #quick_contact{
     width:264px; height:312px; position:relative; margin:5px; padding:0;
     background: url(/images/home/home_contactbox.jpg) no-repeat;
@@ -200,4 +252,42 @@ display:none;
 #footerPanel  #footer_menu  ul li a span {color:#757841;}
 
 #footerPanel #copyright { width:500px; height:10px; margin:0 auto; top:30px; left:250px; position:relative;font-size:12px; float: left;}
+
+
+/* Submit button hack */
+
+
+input[type=submit] {
+  width: 69px;
+  height: 25px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent url(/images/buttons/submit_norm.png) no-repeat center top;
+  text-indent: -1000em;
+  cursor: pointer; /* hand-shaped cursor */
+  cursor: hand; /* for IE 5.x */
+}
+input[type=submit]:hover {
+  background: transparent  url(/images/buttons/submit_hover.png) no-repeat center top;
+}
+
+
+
+#quick_contact #form{
+    width:240px; height:240px; position:relative;
+    top:60px;
+    left:15px;
+
+}
+#quick_contact #form input[type=text]{
+    width:230px; height:20px;font-size:18px;
+}
+#quick_contact #form textarea{
+    width:230px; height:150px;font-size:18px;
+}
+
+#quick_contact #form input[type=submit]{
+    position:relative; left:160px;
+}
 

@@ -7,7 +7,7 @@ if ( !defined('CHECK_INCLUDED') ){
 class gsPage {
 	// top part of html
 
-	
+
 	var $title='Green FrameWork';
 	var $page_name='Home Page';
 	var $layout='default.html';
@@ -45,7 +45,7 @@ class gsPage {
 
 	var $use_gsconf=true;
 	var $gsconf;
-	
+
 	var $debug_state=false;
 	var $debug_output='';
 
@@ -53,14 +53,14 @@ class gsPage {
 
 
 	function display(){
-		
+
 		$title=$this->title;
 		$name=$this->name;
 		$page_name = $this->page_name;
 		$current_url = $this->current_url;
 
 
-		ob_start();	
+		ob_start();
 		$filename = $this->root_path.$this->conf_path.'gfw_conf.php';
 		eval("\$filename = \"$filename\";");
 		if (file_exists($filename)) {
@@ -78,7 +78,7 @@ class gsPage {
 
 		if(count($this->conf_list) > 0){
 			foreach ($this->conf_list as $conf_file){
-				ob_start();	
+				ob_start();
 				$filename = $this->root_path.$this->conf_path.$conf_file;
 				eval("\$filename = \"$filename\";");
 				if (file_exists($filename)) {
@@ -89,13 +89,13 @@ class gsPage {
 				$debug_output .= ob_get_contents();
 				ob_end_clean();
 			}
-			
+
 		}
 
 
 		if(count($this->connection_list) > 0){
 			foreach ($this->connection_list as $connection_file){
-				ob_start();	
+				ob_start();
 				$filename = $this->root_path.$this->connection_path.$connection_file;
 				eval("\$filename = \"$filename\";");
 				if (file_exists($filename)) {
@@ -106,13 +106,13 @@ class gsPage {
 				$debug_output .= ob_get_contents();
 				ob_end_clean();
 			}
-			
+
 		}
 
 
 		if ($this->use_gsconf == true){
 
-			ob_start();	
+			ob_start();
 			$filename = $this->root_path.$this->gsconf_path.'class_gsconf_conf.php';
 			eval("\$filename = \"$filename\";");
 			if (file_exists($filename)) {
@@ -124,15 +124,15 @@ class gsPage {
 			$debug_output .= ob_get_contents();
 			ob_end_clean();
 
-			ob_start();	
+			ob_start();
 			$filename = $this->root_path.$this->gsconf_path.'class_gsconf.php';
 			eval("\$filename = \"$filename\";");
 			if (file_exists($filename)) {
 				include($filename);
-				
+
 				$this->gsconf = new gsConf;
 				$this->gsconf->connection = $myconnection;
-				
+
 			}else{
 				echo 'File :: '.$filename ." not exists. <br/>";
 			}
@@ -143,7 +143,7 @@ class gsPage {
 		}
 
 
-		ob_start();	
+		ob_start();
 		$filename = $this->root_path.$this->pageconf_path.'g_pageconf.php';
 		eval("\$filename = \"$filename\";");
 		if (file_exists($filename)) {
@@ -157,7 +157,7 @@ class gsPage {
 
 		if(count($this->menuconf_list) > 0){
 			foreach ($this->menuconf_list as $menuconf_file){
-				ob_start();	
+				ob_start();
 				$filename = $this->root_path.$this->menuconf_path.$menuconf_file;
 				eval("\$filename = \"$filename\";");
 				if (file_exists($filename)) {
@@ -168,7 +168,7 @@ class gsPage {
 				$debug_output .= ob_get_contents();
 				ob_end_clean();
 			}
-			
+
 		}
 
 
@@ -176,7 +176,7 @@ class gsPage {
 
 		if(count($this->function_list) > 0){
 			foreach ($this->function_list as $function_file){
-				ob_start();	
+				ob_start();
 				$filename = $this->root_path.$this->function_path.$function_file;
 				eval("\$filename = \"$filename\";");
 				if (file_exists($filename)) {
@@ -187,7 +187,7 @@ class gsPage {
 				$debug_output .= ob_get_contents();
 				ob_end_clean();
 			}
-			
+
 		}
 
 
@@ -196,7 +196,7 @@ class gsPage {
 				$class_file = substr($class_file,0,strlen($class_file)-4);
 
 
-				ob_start();	
+				ob_start();
 				$filename = $this->root_path.$this->class_path.$class_file."/".$class_file."_conf.php";
 				eval("\$filename = \"$filename\";");
 				if (file_exists($filename)) {
@@ -209,7 +209,7 @@ class gsPage {
 
 
 
-				ob_start();	
+				ob_start();
 				$filename = $this->root_path.$this->class_path.$class_file."/".$class_file.".php";
 				eval("\$filename = \"$filename\";");
 				if (file_exists($filename)) {
@@ -220,14 +220,14 @@ class gsPage {
 				$debug_output .= ob_get_contents();
 				ob_end_clean();
 			}
-			
+
 		}
 
 
 
 		if(count($this->pageconf_list) > 0){
 			foreach ($this->pageconf_list as $pageconf_file){
-				ob_start();	
+				ob_start();
 				$filename = $this->root_path.$this->pageconf_path.$pageconf_file;
 				eval("\$filename = \"$filename\";");
 				if (file_exists($filename)) {
@@ -238,7 +238,7 @@ class gsPage {
 				$debug_output .= ob_get_contents();
 				ob_end_clean();
 			}
-			
+
 		}
 
 
@@ -251,12 +251,12 @@ class gsPage {
 				}else{
 					$debug_output .= 'File :: '.$filename ." not exists <br/>";
 				}
-				
-			}
-			
-		}	
 
-	
+			}
+
+		}
+
+
 		if(count($this->js_list_link) > 0){
 			foreach ($this->js_list_link as $js_link_file){
 				$filename =$this->js_link_path.$js_link_file;
@@ -266,7 +266,7 @@ class gsPage {
 				}else{
 					$debug_output .= 'File :: '.$filename ." not exists. <br/>";
 				}
-			}	
+			}
 		}
 
 
@@ -284,7 +284,7 @@ class gsPage {
 					$debug_output .='File :: '.$filename ." not exists. <br/>";
 				}
 			}
-			$js.='</script>';	
+			$js.='</script>';
 		}
 
 
@@ -295,16 +295,16 @@ class gsPage {
 
 				$filename = $this->root_path.$this->include_path.$content_tmp['file_name'];
 				eval("\$filename = \"$filename\";");
-				if (file_exists($filename)){ 
+				if (file_exists($filename)){
 					ob_start();
 					include($filename);
-					if(isset($content_tmp['var_name']) && trim($content_tmp['var_name']) != ""){	
+					if(isset($content_tmp['var_name']) && trim($content_tmp['var_name']) != ""){
 						if(isset($$content_tmp['var_name']) && trim($$content_tmp['var_name'])!=""){
 							$$content_tmp['var_name'] .= ob_get_contents();
 						}else{
 							$$content_tmp['var_name'] = ob_get_contents();
 						}
-	
+
 					}else{
 							$debug_output .= ob_get_contents();
 					}
@@ -331,14 +331,14 @@ class gsPage {
 
 
 	function get_plugin(){
-		
+
 		$title=$this->title;
 		$name=$this->name;
 		$page_name = $this->page_name;
 		$current_url = $this->current_url;
 
 
-		ob_start();	
+		ob_start();
 		$filename = $this->root_path.$this->conf_path.'gfw_conf.php';
 		eval("\$filename = \"$filename\";");
 		if (file_exists($filename)) {
@@ -351,7 +351,7 @@ class gsPage {
 
 		if(count($this->conf_list) > 0){
 			foreach ($this->conf_list as $conf_file){
-				ob_start();	
+				ob_start();
 				$filename = $this->root_path.$this->conf_path.$conf_file;
 				eval("\$filename = \"$filename\";");
 				if (file_exists($filename)) {
@@ -362,12 +362,12 @@ class gsPage {
 				$debug_output .= ob_get_contents();
 				ob_end_clean();
 			}
-			
+
 		}
 
 		if(count($this->connection_list) > 0){
 			foreach ($this->connection_list as $connection_file){
-				ob_start();	
+				ob_start();
 				$filename = $this->root_path.$this->connection_path.$connection_file;
 				eval("\$filename = \"$filename\";");
 				if (file_exists($filename)) {
@@ -378,14 +378,14 @@ class gsPage {
 				$debug_output .= ob_get_contents();
 				ob_end_clean();
 			}
-			
+
 		}
 
 
 
 		if ($this->use_gsconf == true){
 
-			ob_start();	
+			ob_start();
 			$filename = $this->root_path.$this->gsconf_path.'class_gsconf_conf.php';
 			eval("\$filename = \"$filename\";");
 			if (file_exists($filename)) {
@@ -399,15 +399,15 @@ class gsPage {
 
 
 
-			ob_start();	
+			ob_start();
 			$filename = $this->root_path.$this->gsconf_path.'class_gsconf.php';
 			eval("\$filename = \"$filename\";");
 			if (file_exists($filename)) {
 				include($filename);
-			
+
 				$this->gsconf = new gsConf;
 				$this->gsconf->connection = $myconnection;
-				
+
 			}else{
 				echo 'File :: '.$filename ." not exists. <br/>";
 			}
@@ -416,7 +416,7 @@ class gsPage {
 
 		}
 
-		ob_start();	
+		ob_start();
 		$filename = $this->root_path.$this->pageconf_path.'g_pageconf.php';
 		eval("\$filename = \"$filename\";");
 		if (file_exists($filename)) {
@@ -429,7 +429,7 @@ class gsPage {
 
 		if(count($this->menuconf_list) > 0){
 			foreach ($this->menuconf_list as $menuconf_file){
-				ob_start();	
+				ob_start();
 				$filename = $this->root_path.$this->menuconf_path.$menuconf_file;
 				eval("\$filename = \"$filename\";");
 				if (file_exists($filename)) {
@@ -440,12 +440,12 @@ class gsPage {
 				$debug_output .= ob_get_contents();
 				ob_end_clean();
 			}
-			
+
 		}
 
 		if(count($this->function_list) > 0){
 			foreach ($this->function_list as $function_file){
-				ob_start();	
+				ob_start();
 				$filename = $this->root_path.$this->function_path.$function_file;
 				eval("\$filename = \"$filename\";");
 				if (file_exists($filename)) {
@@ -456,11 +456,11 @@ class gsPage {
 				$debug_output .= ob_get_contents();
 				ob_end_clean();
 			}
-			
+
 		}
 
 
-		ob_start();	
+		ob_start();
 		$filename = $this->root_path.$this->plugin_path.$this->plugin."/conf/".$this->plugin.".php";
 		eval("\$filename = \"$filename\";");
 		if (file_exists($filename)) {
@@ -476,7 +476,7 @@ class gsPage {
 				$class_file = substr($class_file,0,strlen($class_file)-4);
 
 
-				ob_start();	
+				ob_start();
 				$filename = $this->root_path.$this->class_path.$class_file."/".$class_file."_conf.php";
 				eval("\$filename = \"$filename\";");
 				if (file_exists($filename)) {
@@ -489,7 +489,7 @@ class gsPage {
 
 
 
-				ob_start();	
+				ob_start();
 				$filename = $this->root_path.$this->class_path.$class_file."/".$class_file.".php";
 				eval("\$filename = \"$filename\";");
 				if (file_exists($filename)) {
@@ -500,7 +500,25 @@ class gsPage {
 				$debug_output .= ob_get_contents();
 				ob_end_clean();
 			}
-			
+
+		}
+
+
+
+		if(count($this->pageconf_list) > 0){
+			foreach ($this->pageconf_list as $pageconf_file){
+				ob_start();
+				$filename = $this->root_path.$this->pageconf_path.$pageconf_file;
+				eval("\$filename = \"$filename\";");
+				if (file_exists($filename)) {
+					include($filename);
+				}else{
+					echo 'File :: '.$filename ." not exists. <br/>";
+				}
+				$debug_output .= ob_get_contents();
+				ob_end_clean();
+			}
+
 		}
 
 		if(count($this->css_list) > 0){
@@ -512,12 +530,12 @@ class gsPage {
 				}else{
 					$debug_output .= 'File :: '.$filename ." not exists <br/>";
 				}
-				
-			}
-			
-		}	
 
-	
+			}
+
+		}
+
+
 		if(count($this->js_list_link) > 0){
 			foreach ($this->js_list_link as $js_link_file){
 				$filename =$this->js_link_path.$js_link_file;
@@ -527,7 +545,7 @@ class gsPage {
 				}else{
 					$debug_output .= 'File :: '.$filename ." not exists. <br/>";
 				}
-			}	
+			}
 		}
 
 
@@ -545,7 +563,7 @@ class gsPage {
 					$debug_output .='File :: '.$filename ." not exists. <br/>";
 				}
 			}
-			$js.='</script>';	
+			$js.='</script>';
 		}
 
 
@@ -558,7 +576,7 @@ class gsPage {
 		}else{
 			$debug_output .= 'File :: '.$filename ." not exists <br/>";
 		}
-		
+
 
 		$filename = $this->root_path.$this->plugin_path.$this->plugin."/js/".$this->plugin.".js";
 		eval("\$filename = \"$filename\";");
@@ -593,16 +611,16 @@ class gsPage {
 
 				$filename = $this->root_path.$this->include_path.$content_tmp['file_name'];
 				eval("\$filename = \"$filename\";");
-				if (file_exists($filename)){ 
+				if (file_exists($filename)){
 					ob_start();
 					include($filename);
-					if(isset($content_tmp['var_name']) && trim($content_tmp['var_name']) != ""){	
+					if(isset($content_tmp['var_name']) && trim($content_tmp['var_name']) != ""){
 						if(isset($$content_tmp['var_name']) && trim($$content_tmp['var_name'])!=""){
 							$$content_tmp['var_name'] .= ob_get_contents();
 						}else{
 							$$content_tmp['var_name'] = ob_get_contents();
 						}
-	
+
 					}else{
 							$debug_output .= ob_get_contents();
 					}
@@ -616,7 +634,7 @@ class gsPage {
 				$filename = $this->root_path.$this->plugin_path.$this->plugin."/functions/".$this->plugin.".php";
 				eval("\$filename = \"$filename\";");
 				if (file_exists($filename)) {
-					ob_start();	
+					ob_start();
 					include($filename);
 					$this->plugin_output .= ob_get_contents();
 					ob_end_clean();
@@ -632,7 +650,7 @@ class gsPage {
 				$filename = $this->root_path.$this->plugin_path.$this->plugin."/code/".$this->plugin.".php";
 				eval("\$filename = \"$filename\";");
 				if (file_exists($filename)) {
-					ob_start();	
+					ob_start();
 					include($filename);
 					$this->plugin_output .= ob_get_contents();
 					ob_end_clean();
@@ -649,7 +667,7 @@ class gsPage {
 				$filename = $this->root_path.$this->plugin_path.$this->plugin."/form/".$this->plugin.".php";
 				eval("\$filename = \"$filename\";");
 				if (file_exists($filename)) {
-					ob_start();	
+					ob_start();
 					include($filename);
 					$this->plugin_output .= ob_get_contents();
 					ob_end_clean();
@@ -676,18 +694,18 @@ class gsPage {
 	}
 
 
-	
-	
-	
+
+
+
 	function get_content($content_list){
-	
+
 	ob_start();
-		
+
 		$current_url = $this->current_url;
 		$myconnection = $this->db_connection;
 		$page_name = $this->page_name;
-		foreach ($content_list as $content){	
-			include($root_path.$include_path.$content);	
+		foreach ($content_list as $content){
+			include($root_path.$include_path.$content);
 		}
 		$output = ob_get_contents();
 	ob_end_clean();
@@ -697,7 +715,7 @@ class gsPage {
 	function debug_output($debug_output){
 		echo '<div style="overflow:auto; width:100%; height:120px;background-color:#FFF87B; position:absolute;" onclick="this.style.display=\'none\';" title="Click to close Error Console">';
 		echo '<div align="center"><span style="font-weight : bold; font-size:16px;" >Debug Window</span></div> <br/>';
-		
+
 		echo 'Pagename : '.$this->page_name.'<br/>';
 		echo $debug_output;
 		echo '<br/><div align="center"><a href="#" onclick="this.style.display=\'none\'; return false;">Close</a></div>';
@@ -707,3 +725,4 @@ class gsPage {
 
 }// calss Page **************  END
 ?>
+

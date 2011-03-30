@@ -27,12 +27,16 @@ $page = new gsPage;
 	$content_list[$index]['file_name']='inc_haridraa_menu.php';
 	$content_list[$index]['var_name']='haridraa_menu';
 	$index++;
-	$content_list[$index]['file_name']='inc_index.php';
-	$content_list[$index]['var_name']='content';
+	$content_list[$index]['file_name']='inc_quick_contact.php';
+	$content_list[$index]['var_name']='quick_contact';
 	$index++;
 	$content_list[$index]['file_name']='inc_news.php';
 	$content_list[$index]['var_name']='news';
 	$index++;
+	$content_list[$index]['file_name']='inc_index.php';
+	$content_list[$index]['var_name']='content';
+    $index++;
+
 	$content_list[$index]['file_name']='inc_footer.php';
 	$content_list[$index]['var_name']='footer';
 

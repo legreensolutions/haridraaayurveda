@@ -38,13 +38,13 @@ $right_treatments_available = 'RIGHT Treatments Available';
 </div>
 
 
-<div id="contactus_form">
+<div id="quick_contact">
     <div id="title">
 
     </div>
 
     <div id="form">
-        <?php echo $contactus_form; ?>
+        <?php echo $quick_contact; ?>
     </div>
 
 </div>

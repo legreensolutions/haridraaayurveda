@@ -28,10 +28,10 @@
 
 <div id="slidePanel">
   <div class="phone">
-    <div class="ico"></div> <div class="number"> 0484 2808185 </div>
+    <div class="ico"></div> <div class="number"> <?php echo $contactus_phone; ?> </div>
   </div>
   <div class="email">
-    <div class="address"> <a href="mailto:mail@haridraaayurveda.com"> mail@haridraaayurveda.com </a> </div>
+    <div class="address"> <a href="mailto:mail@haridraaayurveda.com"> <?php echo $contactus_email; ?> </a> </div>
   </div>
   <div class="info">
     <ul class="logo">
@@ -39,13 +39,7 @@
     </ul>
     <div class="contact_ico"></div>
 
-    <span>Haridraa Ayurveda,<br>
-Lenin centre,<br>
-Behind Medical Centre hospital,<br>
-Vennala P.O,<br>
-
-Kochi - 682028, Kerala, India<br>
-</span>
+    <span><?php echo $contactus_address; ?>  </span>
   </div>
 
 

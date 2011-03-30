@@ -158,3 +158,21 @@ font-weight:bold;
     width: 420px;
 }
 
+/* Submit button hack */
+
+
+input[type=submit] {
+  width: 69px;
+  height: 25px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent url(/images/buttons/submit_norm.png) no-repeat center top;
+  text-indent: -1000em;
+  cursor: pointer; /* hand-shaped cursor */
+  cursor: hand; /* for IE 5.x */
+}
+input[type=submit]:hover {
+  background: transparent  url(/images/buttons/submit_hover.png) no-repeat center top;
+}
+
