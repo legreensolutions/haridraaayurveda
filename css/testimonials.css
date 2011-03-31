@@ -1,0 +1,112 @@
+/* SLIDE PANEL*/
+#slidePanel{width:955px; height:150px; position:relative; margin:0 auto; padding:0;
+    background:#daf9fe;
+    border-left:3px solid #7d8f91;
+    border-right:3px solid #7d8f91;
+ }
+#slidePanel #testimonials{
+    width:281px; height:51px; top:30px; left:70px;
+    background-image: url(/images/testimonials/testimonials.jpg); position:relative;float:left;
+}
+#slidePanel .logo {
+     position:relative;float:left;
+     left:350px;
+     top:10px;
+}
+#slidePanel .logo li a span{
+display:none;
+}
+#slidePanel .logo li a{
+  background: url(/images/testimonials/logo.jpg) no-repeat;
+  width: 309px;
+  height: 116px;
+  display: block;
+}
+
+/* BODY PANEL*/
+#bodyPanel{width:955px; height:850px; position:relative; margin:0 auto; padding:0;
+    background:#daf9fe;
+    border:0px;
+    border-left:3px solid #7d8f91;
+    border-right:3px solid #7d8f91;
+
+ }
+
+
+
+#l,
+#l {
+	width: 620px;
+	padding-right: 20px;
+	float: left;
+	margin-right: 1Z0px;
+	}
+
+#r {
+	width: 300px;
+	float: right;
+	margin-right:15px;
+	}
+
+
+#testimonials_content_l{
+   width:610px; height:800px; position:relative; margin-left:20px; padding:0; background:#eafcff; border:2px solid #a6b8bc;
+    color:#0f4b56;
+    text-align:justify; font-size:16px;
+
+
+    /* line-height:110%; */
+
+}
+
+#testimonials_content_l #content{
+    margin:25px;
+    color:#0f4b56;
+    text-align:justify; font-size:16px;
+    font-style: italic;
+    /* line-height:110%; */
+
+}
+
+#testimonials_image{
+    width:264px; height:290px; position:relative; margin-left:15px; margin-top:-15px; padding:0;
+   }
+#testimonials_image #content img{
+    margin-top:10px;
+}
+
+
+
+#quick_contact {
+    width:258px; height:306px; position:relative; float:left;
+    background: url(/images/testimonials/contactbox_bg.png) no-repeat;
+    top:0px;
+    left:25px;
+
+}
+
+#quick_contact #title{
+    width:241px; height:42px; position:relative;
+    background: url(/images/testimonials/contactbox_title.png) no-repeat;
+    top:10px;
+    left:6px;
+}
+
+
+#quick_contact #form{
+    width:240px; height:240px; position:relative;
+    top:15px;
+    left:10px;
+
+}
+#quick_contact #form input[type=text]{
+    width:230px; height:20px;font-size:18px;
+}
+#quick_contact #form textarea{
+    width:230px; height:150px;font-size:18px;
+}
+
+#quick_contact #form input[type=submit]{
+    position:relative; left:160px;
+}
+
