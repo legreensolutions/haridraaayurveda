@@ -18,7 +18,6 @@ $page = new gsPage;
 
 	$page->function_list = array("functions.php");
 	$page->class_list = array("class_user.php","class_gspagination.php");
-	$page->pageconf_list = array("haridraa_aboutus.html");
 
 	$index=0;
 	$content_list[$index]['file_name']='inc_language.php';

@@ -1,0 +1,109 @@
+/* SLIDE PANEL*/
+#slidePanel{width:955px; height:150px; position:relative; margin:0 auto; padding:0;
+    background:#e9ffbe;
+    border-left:3px solid #86926c;
+    border-right:3px solid #86926c;
+ }
+#slidePanel #facilities{
+    width:414px; height:69px; top:20px; left:30px;
+    background-image: url(/images/facilities/facilities.jpg); position:relative;float:left;
+}
+#slidePanel .logo {
+     position:relative;float:left;
+     left:220px;
+     top:10px;
+}
+#slidePanel .logo li a span{
+display:none;
+}
+#slidePanel .logo li a{
+  background: url(/images/facilities/logo.jpg) no-repeat;
+  width: 294px;
+  height: 108px;
+  display: block;
+}
+
+/* BODY PANEL*/
+#bodyPanel{width:955px; height:850px; position:relative; margin:0 auto; padding:0;
+    background:#e9ffbe;
+    border:0px;
+    border-left:3px solid #86926c;
+    border-right:3px solid #86926c;
+
+ }
+
+
+
+#l,
+#l {
+	width: 620px;
+	padding-right: 20px;
+	float: left;
+	margin-right: 1Z0px;
+	}
+
+#r {
+	width: 300px;
+	float: right;
+	margin-right:15px;
+	}
+
+
+#facilities_content_l{
+   width:610px; height:800px; position:relative; margin-left:20px; padding:0; background:#f3ffdb; border:2px solid #bfcba7;
+    color:#606c48;
+    text-align:justify; font-size:16px;
+    /* line-height:110%; */
+    color:#fff;
+}
+
+#facilities_content_l #content{
+    margin:25px;
+    color:#3d532d;
+    text-align:justify; font-size:16px;
+    /* line-height:110%; */
+
+}
+
+#facilities_image{
+    width:264px; height:290px; position:relative; margin-left:15px; margin-top:-15px; padding:0;
+   }
+#facilities_image #content img{
+    margin-top:10px;
+}
+
+
+
+#quick_contact {
+    width:258px; height:306px; position:relative; float:left;
+    background: url(/images/facilities/contactbox_bg.png) no-repeat;
+    top:230px;
+    left:25px;
+
+}
+
+#quick_contact #title{
+    width:241px; height:42px; position:relative;
+    background: url(/images/facilities/contactbox_title.png) no-repeat;
+    top:10px;
+    left:6px;
+}
+
+
+#quick_contact #form{
+    width:240px; height:240px; position:relative;
+    top:15px;
+    left:10px;
+
+}
+#quick_contact #form input[type=text]{
+    width:230px; height:20px;font-size:18px;
+}
+#quick_contact #form textarea{
+    width:230px; height:150px;font-size:18px;
+}
+
+#quick_contact #form input[type=submit]{
+    position:relative; left:160px;
+}
+
