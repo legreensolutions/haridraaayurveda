@@ -9,11 +9,11 @@ $page = new gsPage;
 
 	$page->current_url = $current_url;	// current url for pages
 	$page->title = "Haridraa Ayurveda";	// page Title
-	$page->page_name = 'index';		// page name for menu and other purpose
-	$page->layout = 'haridraa_home.html';		// layout name
+	$page->page_name = 'news';		// page name for menu and other purpose
+	$page->layout = 'haridraa_news.html';		// layout name
 
-    $page->conf_list = array("conf.php");
-    $page->menuconf_list = array("menu_conf.php");
+	$page->conf_list = array("conf.php");
+	$page->menuconf_list = array("menu_conf.php");
 	$page->connection_list = array("connection.php");
 
 	$page->function_list = array("functions.php");
@@ -27,16 +27,9 @@ $page = new gsPage;
 	$content_list[$index]['file_name']='inc_haridraa_menu.php';
 	$content_list[$index]['var_name']='haridraa_menu';
 	$index++;
-	$content_list[$index]['file_name']='inc_quick_contact.php';
-	$content_list[$index]['var_name']='quick_contact';
-	$index++;
-	//$content_list[$index]['file_name']='inc_home_news.php';
-	//$content_list[$index]['var_name']='news';
-	//$index++;
-	$content_list[$index]['file_name']='inc_index.php';
+	$content_list[$index]['file_name']='inc_news.php';
 	$content_list[$index]['var_name']='content';
-    $index++;
-
+	$index++;
 	$content_list[$index]['file_name']='inc_footer.php';
 	$content_list[$index]['var_name']='footer';
 

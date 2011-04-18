@@ -4,6 +4,6 @@
   <li class="treatments"> <a href="treatments.php" title="Treatments"> <span>Treatments</span> </a> </li>
   <li class="facilities"> <a href="facilities.php" title="Facilities"> <span>Facilities</span> </a> </li>
   <li class="testimonials"> <a href="testimonials.php" title="Testimonials"> <span>Testimonials</span> </a> </li>
-  <li class="news"> <a href="#" title="News"> <span>News</span> </a> </li>
+  <li class="news"> <a href="news.php" title="News"> <span>News</span> </a> </li>
 </ul>
 
