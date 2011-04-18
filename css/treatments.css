@@ -1,15 +1,15 @@
 /* SLIDE PANEL*/
-#slidePanel{width:961px; height:348px; position:relative; margin:0 auto; padding:0; background-image: url(/images/about_ayurveda/ayurvda_slide.jpg);}
+#slidePanel{width:961px; height:348px; position:relative; margin:0 auto; padding:0; background-image: url(/images/treatments/treatments_slide.jpg);}
 #slidePanel .logo {
      position:relative;float:left;
-     left:620px;
-     top:200px;
+     left:585px;
+     top:205px;
 }
 #slidePanel .logo li a span{
 display:none;
 }
 #slidePanel .logo li a{
-  background: url(/images/about_ayurveda/logo.png) no-repeat;
+   background: url(/images/treatments/logo.png) no-repeat;
   width: 320px;
   height: 124px;
   display: block;
@@ -88,7 +88,7 @@ display:none;
 
 #quick_contact {
     width:258px; height:306px; position:relative; float:left;
-    background: url(/images/about_ayurveda/contactbox_bg.png) no-repeat;
+    background: url(/images/treatments/contactbox_bg.png) no-repeat;
     top:80px;
     left:60px;
 
@@ -96,7 +96,7 @@ display:none;
 
 #quick_contact #title{
     width:241px; height:42px; position:relative;
-    background: url(/images/about_ayurveda/contactbox_title.png) no-repeat;
+    background: url(/images/treatments/contactbox_title.png) no-repeat;
     top:10px;
     left:6px;
 }

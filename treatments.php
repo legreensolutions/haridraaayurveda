@@ -9,8 +9,8 @@ $page = new gsPage;
 
 	$page->current_url = $current_url;	// current url for pages
 	$page->title = "Haridraa Ayurveda";	// page Title
-	$page->page_name = 'ayurveda';		// page name for menu and other purpose
-	$page->layout = 'haridraa_about_ayurveda.html';		// layout name
+	$page->page_name = 'treatments';		// page name for menu and other purpose
+	$page->layout = 'haridraa_treatments.html';		// layout name
 
 	$page->conf_list = array("conf.php");
 	$page->menuconf_list = array("menu_conf.php");

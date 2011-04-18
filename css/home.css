@@ -61,13 +61,13 @@ display:none;
   background-image: url(/images/menu/about_us.jpg);
 }
 
-#menuPanel ul li.about_ayurveda a {
+#menuPanel ul li.treatments a {
   width: 212px;
   height: 45px;
-  background-image: url(/images/home_menu/abtayur.jpg);
+  background-image: url(/images/home_menu/treatments.jpg);
 }
-#menuPanel ul li.about_ayurveda a:hover {
-  background-image: url(/images/menu/abtayur.jpg);
+#menuPanel ul li.treatments a:hover {
+  background-image: url(/images/menu/treatments.jpg);
 }
 
 
