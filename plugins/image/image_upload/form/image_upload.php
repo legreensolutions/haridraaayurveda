@@ -29,12 +29,12 @@
 
         				<div align="left" style="padding-left:10px;overflow:auto;width:400px;height:395px;background-color:#F5F5F5;border:1px;border-color:#D6D6D6;border-style:solid;">
 						<div align="center" style="padding-top:4px;"><strong><?= $CAPGallery ?></strong></div><br/>
-						<?php 
-								$result =get_filenames(ROOT_PATH.$gallery_path,"jpeg","",true);
+						<?php
+								$result =get_filenames(ROOT_PATH.$gallery_path,"jpg","",true);
 								$n = sizeof($result);
 								for ($i = 0 ; $i < $n ; $i++ ){
 						?>
-						<IMG width="80" src="<?= $result[$i]?>"/>    <?= $result[$i]?>	<br/>	
+						<IMG width="80" src="<?= $result[$i]?>"/>    <?= $result[$i]?>	<br/>
 						<?php  } ?>
 						</div>
 
@@ -44,3 +44,4 @@
 
 </table>
 </form>
+

@@ -8,6 +8,10 @@
 <meta name="description" content="haridraa ayurveda center for treatment and research" />
 <title><?= $title ?> </title>
 <link href="css/home.css" rel="stylesheet" type="text/css">
+<link href="css/slide.css" rel="stylesheet" type="text/css">
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.rs.slideshow.js"></script>
+<script src="js/bootstrap.js"></script>
 <?= $js ?><?= $css ?>
 <link rel="shortcut icon" href="images/favicon.ico">
 </head><body>
@@ -24,13 +28,37 @@
 
 </div>
 
-<div id="slidePanel">
+<div id="slideshow" class="slideshow">
+
+
+				<div class="slide-container">
+					<img src="images/home/slide/home_mainimage.jpg" alt="The first image in a slideshow demo." title="This is the first slide" />
+
+				</div>
+				<ol class="slides">
+					<li>
+						<a href="images/home/slide/slide1.jpg"
+							>This is the first slide</a>
+					</li>
+					<li>
+						<a href="images/home/slide/slide2.jpg"
+							>This is the second slide</a>
+					</li>
+					<li>
+						<a href="images/home/slide/slide3.jpg"
+							>This is the third slide</a>
+					</li>
+				</ol>
+
   <div class="certification"></div>
   <div class="effective_ayurveda"></div>
   <div class="lotus"></div>
   <ul class="logo">
     <li> <a href="index.php" title="Haridraa Ayurveda"> <span>Haridraa Ayurveda</span> </a> </li>
   </ul>
+
+
+
 
 
 

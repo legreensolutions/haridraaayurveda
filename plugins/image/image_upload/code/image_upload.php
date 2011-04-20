@@ -1,4 +1,14 @@
 <?
+ $myuser = new User();
+ $myuser->usertype_id = USERTYPE_ADMIN;
+ $myuser->connection = $myconnection;
+ $chk = $myuser->check_login();
+ if ( $chk == false ){
+            $_SESSION[SESSION_TITLE.'flash'] = $g_msg_unauthorized_request;
+            $_SESSION[SESSION_TITLE.'flash_redirect_page'] = $g_msg_unauthorized_request_redirect_page;
+            header( "Location: gfwflash.php");
+            exit();
+ }
 if ( $_POST['submit'] == $CAP_OBJ_upload ) {
 $strERR = "";
     if ( trim ( $_FILES['fleimage']['name'] ) == "" ){
@@ -43,3 +53,4 @@ $strERR = "";
 
     }
     ?>
+

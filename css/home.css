@@ -101,23 +101,23 @@ display:none;
 }
 
 /* SLIDE PANEL*/
-#slidePanel{width:961px; height:411px; position:relative; margin:0 auto; padding:0; background-image: url(/images/home/slide/home_mainimage.jpg);}
+#slideshow{width:961px; height:411px; position:relative; margin:0 auto; padding:0; background-image: url(/images/home/slide/home_mainimage.jpg);}
 
-#slidePanel .certification { position: relative; left:688px; top:30px; height:68px; width:273px;background-image: url(/images/home/cert.png);}
+#slideshow .certification { position: relative; left:688px; top:30px; height:68px; width:273px;background-image: url(/images/home/cert.png);}
 
-#slidePanel .effective_ayurveda{position: relative; left:650px; top:30px; height:64px; width:182px;background-image: url(/images/home/effeayur.png);}
+#slideshow .effective_ayurveda{position: relative; left:650px; top:30px; height:64px; width:182px;background-image: url(/images/home/effeayur.png);}
 
 
-#slidePanel .lotus { position:relative; left:445px; top:0px; width:516px; height:286px; background-image: url(/images/home/lotus.png); }
+#slideshow  .lotus { position:relative; left:445px; top:0px; width:516px; height:286px; background-image: url(/images/home/lotus.png); }
 
-#slidePanel .logo {
+#slideshow  .logo {
      position:relative; left:550px; top:-230px;
 }
 
-#slidePanel .logo li a span{
+#slideshow .logo li a span{
 display:none;
 }
-#slidePanel .logo li a{
+#slideshow .logo li a{
   background: url(/images/home/home_logo.png) no-repeat;
   width: 320px;
   height: 124px;
