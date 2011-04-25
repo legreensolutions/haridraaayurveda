@@ -62,22 +62,24 @@ display:none;
 #treatments #heading {
     width:600px; height:30px; position::relative;
     color:#3f1e17; margin-top:10px;
-    text-align:center; font-size:28px;
+    text-align:center; font-size:26px;
     font-weight:bold;
 
 }
 
 #treatments #left {
     width:280px; height:300px; position::relative; float:left;
-    margin-left:10px; margin-top:10px;
-    text-align:justify; font-size:16px;  color:#3f1e17;
-
+    margin-left:30px; margin-top:10px;
+    text-align:left; font-size:14px;  color:#3f1e17;
+    line-height:230%;
+    font-weight:bold;
 }
 #treatments #right {
     width:280px; height:300px; position::relative; float:left;
     margin-left:10px; margin-top:10px;
-    text-align:justify; font-size:16px;  color:#3f1e17;
-
+    text-align:left; font-size:14px;  color:#3f1e17;
+    line-height:250%;
+    font-weight:bold;
 }
 
 
