@@ -2,20 +2,24 @@
     <div id="facilities_content_l">
 
             <div id="content">
-             <?php echo $this->gsconf->get_conf(CONF_TYPE_TEXT,'facilities_content','facilities','<b>Fifteen bedded Ayurveda hospital with homely atmosphere.</b>
-Well equipped Panchakarma theater separate for male & female, well trained & experienced therapists and nursing staffs.
+             <?php echo $this->gsconf->get_conf(CONF_TYPE_TEXT,'facilities_content','facilities','<b>SUPER SPECIALITY CONSULTATIONS</b>
+Asthi marma (orthopedic) consultations, Netraroga clinic (ophthalmology), Streeroga (gynecology), Nadeechikitsa (Diagnosis by pulse reading), psychiatry consultations, skin clinic, Yoga and Naturopathy.
 
-<b>Yoga classes</b>
-Classes and consultation under the guidance of reputed senior YOGACHARYA SRI. CHIDAMBARAM
-
-<b>Medicines using for the treatment are manufactured under the guidance of senior doctors.</b>
-HARIDRAA AYURVEDA HEALTH CARE SPECIALITIES
+<b>HARIDRAA AYURVEDA HEALTH CARE SPECIALITIES</b>
 WEIGHT REDUCTION TREATMENTS
 STRESS RELIEVING TREATMENTS
 DETOXIFICATION TREATMENTS
 REJUVINATION TREATMENTS
 ANTI AGING TREATMENTS
 WELLNESS TREATMENTS
+
+<b>Fifteen bedded Ayurveda hospital with homely atmosphere.</b>
+Well equipped Panchakarma theater separate for male & female, well trained & experienced therapists and nursing staffs.
+
+<b>Yoga classes</b>
+Classes and consultation under the guidance of reputed senior YOGACHARYA SRI. CHIDAMBARAM
+
+Medicines using for the treatment are manufactured under the guidance of senior doctors.
 
 <span class="topic_head">FACULTY</span>
 Haridraa Ayurveda has been conceived and created by a group of young, aspiring Ayurvedic graduates with established out practice and a great vision.
@@ -31,9 +35,6 @@ A young Ayurvedic graduate with an established out patient clinician, halling fr
 
 <b>Dr. SAJI SRIDHAR. B.A.M.S (Ay)</b>
 A young doctor having post graduation in ayurveda specialized in Marma and Orthopedic and working as associated professor in Nangelil Ayurveda medical college, Kothamangalam.
-
-<b>AUPER SPECIALITY CONSULTATIONS</b>
-Asthi marma (orthopedic) consultations, Netraroga clinic (ophthalmology), Streeroga (gynecology), Nadeechikitsa (Diagnosis by pulse reading), psychiatry consultations, skin clinic, Yoga and Naturopathy.
 '); ?>
             </div>
 
