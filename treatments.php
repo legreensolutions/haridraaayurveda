@@ -30,7 +30,7 @@ $page = new gsPage;
 	$content_list[$index]['file_name']='inc_quick_contact.php';
 	$content_list[$index]['var_name']='quick_contact';
 	$index++;
-	$content_list[$index]['file_name']='inc_ayurveda.php';
+	$content_list[$index]['file_name']='inc_treatments.php';
 	$content_list[$index]['var_name']='content';
 	$index++;
 	$content_list[$index]['file_name']='inc_footer.php';

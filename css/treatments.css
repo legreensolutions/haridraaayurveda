@@ -20,67 +20,36 @@ display:none;
 
 
 
-#beyond_healing{
-    width:890px; height:400px; position:relative;
-    background:#dffec2;
-    border: 3px solid #404c38;
-    top:20px;
-    left:30px;
+
+#l,
+#l {
+	width: 620px;
+	padding-right: 20px;
+	float: left;
+	margin-right: 1Z0px;
+	}
+
+#r {
+	width: 300px;
+	float: right;
+	margin-right:15px;
+	}
+
+#treatments_content_l{
+   width:610px; height:800px; top:20px; position:relative; margin-left:20px; padding:0; background:#dffec2; border:2px solid #404c38;
+    color:#606c48;
+    text-align:justify; font-size:16px;
+    /* line-height:110%; */
+    color:#fff;
 }
 
-#beyond_healing #heading {
-    width:890px; height:30px; position::relative;
-    color:#185217; margin-top:10px;
-    text-align:center; font-size:28px;
-    font-weight:bold;
+#treatments_content_l #content{
+    margin:25px;
+    color:#185217;
+    text-align:justify; font-size:16px;
+    /* line-height:110%; */
 
 }
-
-
-#beyond_healing #left {
-    width:400px; height:330px; position::relative; float:left;
-    margin-left:30px; margin-top:20px;
-    text-align:justify; font-size:16px;  color:#185217;
-
-}
-#beyond_healing #right {
-    width:400px; height:330px; position::relative; float:left;
-    margin-left:30px; margin-top:20px;
-    text-align:justify; font-size:16px;  color:#185217;
-
-}
-
-
-
-#treatments{
-    width:600px; height:360px; position:relative; float:left;
-    background:#dffec2;
-    border: 3px solid #404c38;
-    top:50px;
-    left:30px;
-}
-#treatments #heading {
-    width:600px; height:30px; position::relative;
-    color:#185217; margin-top:10px;
-    text-align:center; font-size:28px;
-    font-weight:bold;
-
-}
-
-#treatments #left {
-    width:280px; height:300px; position::relative; float:left;
-    margin-left:10px; margin-top:10px;
-    text-align:justify; font-size:16px;  color:#185217;
-
-}
-#treatments #right {
-    width:280px; height:300px; position::relative; float:left;
-    margin-left:10px; margin-top:10px;
-    text-align:justify; font-size:16px;  color:#185217;
-
-}
-
-
 
 
 
@@ -89,8 +58,8 @@ display:none;
 #quick_contact {
     width:258px; height:306px; position:relative; float:left;
     background: url(/images/treatments/contactbox_bg.png) no-repeat;
-    top:80px;
-    left:60px;
+    top:20px;
+    left:25px;
 
 }
 

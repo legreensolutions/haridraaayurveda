@@ -24,7 +24,7 @@ display:none;
 }
 
 /* BODY PANEL*/
-#bodyPanel{width:955px; height:850px; position:relative; margin:0 auto; padding:0;
+#bodyPanel{width:955px; height:950px; position:relative; margin:0 auto; padding:0;
     background:#e9ffbe;
     border:0px;
     border-left:3px solid #86926c;
@@ -50,7 +50,7 @@ display:none;
 
 
 #facilities_content_l{
-   width:610px; height:800px; position:relative; margin-left:20px; padding:0; background:#f3ffdb; border:2px solid #bfcba7;
+   width:610px; height:920px; position:relative; margin-left:20px; padding:0; background:#f3ffdb; border:2px solid #bfcba7;
     color:#606c48;
     text-align:justify; font-size:16px;
     /* line-height:110%; */
@@ -72,7 +72,10 @@ display:none;
     margin-top:10px;
 }
 
-
+.topic_head{
+    font-size:20px;
+    font-weight:bold;
+}
 
 #quick_contact {
     width:258px; height:306px; position:relative; float:left;
