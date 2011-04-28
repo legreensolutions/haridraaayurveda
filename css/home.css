@@ -118,7 +118,7 @@ display:none;
 display:none;
 }
 #slideshow .logo li a{
-  background: url(/images/home/home_logo.png) no-repeat;
+  /* background: url(/images/home/home_logo.png) no-repeat; */
   width: 320px;
   height: 124px;
   display: block;
