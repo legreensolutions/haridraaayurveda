@@ -2,21 +2,21 @@
 #slidePanel{width:961px; height:348px; position:relative; margin:0 auto; padding:0; background-image: url(/images/treatments/treatments_slide.jpg);}
 #slidePanel .logo {
      position:relative;float:left;
-     left:585px;
-     top:205px;
+     left:86px;
+     top:215px;
 }
 #slidePanel .logo li a span{
 display:none;
 }
 #slidePanel .logo li a{
-   background: url(/images/treatments/logo.png) no-repeat;
+  /* background: url(/images/treatments/logo.png) no-repeat; */
   width: 320px;
   height: 124px;
   display: block;
 }
 
 /* BODY PANEL*/
-#bodyPanel{width:956px; height:850px; position:relative; margin:0 auto; padding:0; background:#5e982a; border:3px solid #21330d; }
+#bodyPanel{width:956px; height:850px; position:relative; margin:0 auto; padding:0; background:#efe0a9; border:3px solid #70694d; }
 
 
 
@@ -36,16 +36,16 @@ display:none;
 	}
 
 #treatments_content_l{
-   width:610px; height:800px; top:20px; position:relative; margin-left:20px; padding:0; background:#dffec2; border:2px solid #404c38;
-    color:#606c48;
+   width:610px; height:800px; top:20px; position:relative; margin-left:20px; padding:0; background:#fff; border:2px solid #888888;
+    color:#605327;
     text-align:justify; font-size:16px;
     /* line-height:110%; */
-    color:#fff;
+
 }
 
 #treatments_content_l #content{
     margin:25px;
-    color:#185217;
+    color:#605327;
     text-align:justify; font-size:16px;
     /* line-height:110%; */
 
