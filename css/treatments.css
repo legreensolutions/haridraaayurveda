@@ -2,14 +2,14 @@
 #slidePanel{width:961px; height:348px; position:relative; margin:0 auto; padding:0; background-image: url(/images/treatments/treatments_slide.jpg);}
 #slidePanel .logo {
      position:relative;float:left;
-     left:86px;
+     left:560px;
      top:215px;
 }
 #slidePanel .logo li a span{
 display:none;
 }
 #slidePanel .logo li a{
-  /* background: url(/images/treatments/logo.png) no-repeat; */
+ /* background: url(/images/treatments/logo.png) no-repeat; */
   width: 320px;
   height: 124px;
   display: block;
