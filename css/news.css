@@ -18,7 +18,7 @@ display:none;
 }
 
 /* BODY PANEL*/
-#bodyPanel{width:955px; height:850px; position:relative; margin:0 auto; padding:0;
+#bodyPanel{width:955px; height:1250px; position:relative; margin:0 auto; padding:0;
     background:#fff;
     border:0px;
     border-left:3px solid #7d8f91;
@@ -45,7 +45,7 @@ display:none;
 
 #news_content_l{
 
-   width:910px; height:800px; position:relative; margin-left:20px; padding:0; background:#fff; border:2px solid #ccc;
+   width:910px; height:1200px; position:relative; margin-left:20px; padding:0; background:#fff; border:2px solid #ccc;
     color:#000;
     text-align:justify; font-size:16px;
     margin-top:15px;
@@ -60,6 +60,37 @@ display:none;
     text-align:justify; font-size:16px;
     font-style: italic;
     /* line-height:110%; */
+
+}
+
+#Gallery_NA{
+     position:relative; float:right;
+     right:20px;
+}
+
+#Gallery_NA a {
+    color:#000;
+}
+.m_news{
+   margin-top:25px;
+   position:relative; float:left;
+    left:80px;
+    text-align:justify;
+    width:700px;
+    font-weight:bold;
+    background:silver;
+    border:6px solid silver;
+}
+.m_news_image{
+position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    width:700px;
+
+}
+
+.m_news_image IMG {
 
 }
 

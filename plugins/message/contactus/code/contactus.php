@@ -28,6 +28,24 @@ if ( $guestbook_error == "" ){
       $mymessage->get_messagetype_id();
 
       $chk = $mymessage->update();
+
+            $str_subject = "Contact Informations from haridraaayurveda.com";
+            $headers  = 'MIME-Version: 1.0' . "\r\n";
+            $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+            $headers .= 'From: '.$_POST['txtname'].' <'.$_POST['txtemailid'].'>'."\r\n";
+            $message = "Contact Informations <br>
+                 Name: " . $_POST['txtname'] . "<br>
+                 Phone: " . $_POST['txtphone'] . "<br>
+                 Address: " . $_POST['txtaddress'] . "<br>
+                 Email: " . $_POST['txtemailid'] . "<br>
+                 Subject: " . $_POST['txtsubject'] . "<br>
+                 Content: " . $_POST['txtcontent'] . "<br>
+                <br /><br />
+
+                Thanks,<br /><br />
+                haridraaayurveda.com<br />";
+
+                mail("haridraaayurveda@gmail.com",$str_subject,$message,$headers);
                             if ($chk == false){
                             $_SESSION[SESSION_TITLE.'flash'] = $RD_MSG_error;
                             $_SESSION[SESSION_TITLE.'flash_redirect_page'] = "index.php";
@@ -46,3 +64,4 @@ if ( $guestbook_error == "" ){
 
 }
 ?>
+
