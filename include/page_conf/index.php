@@ -14,7 +14,9 @@ $index_bottom_cont = $this->gsconf->get_conf(CONF_TYPE_TEXT,'index_bottom_conten
 Welcome to HARIDRAA Ayurveda - an Ayurvedic Treatment and Research center, at Lenin Center, Vennala, Ernakulam. A centre of excellence providing tailor made treatments and wellness packages rooted strongly in principles of Ayurveda and carefully designed to suit the needs of each individual patient or customer.");
 
 
-$index_news_cont = $this->gsconf->get_conf(CONF_TYPE_TEXT,'index_news_content','index'," Now 'HARIDRAA' has diversified their activities by opening branches at Vennala, Vyttila and Perumbavoor in Ernakulam District.");
+$index_news_cont = $this->gsconf->get_conf(CONF_TYPE_TEXT,'index_news_content','index'," Now 'HARIDRAA' has diversified their activities by opening branches at Vennala, Vyttila and Perumbavoor in Ernakulam District.
+
+A relentless effort to unify tradition into modernity. At haridraa quality is the way of life rather than some thing imposed.");
 
 
 

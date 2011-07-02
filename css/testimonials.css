@@ -24,7 +24,7 @@ display:none;
 }
 
 /* BODY PANEL*/
-#bodyPanel{width:955px; height:850px; position:relative; margin:0 auto; padding:0;
+#bodyPanel{width:955px; height:400px; position:relative; margin:0 auto; padding:0;
     background:#daf9fe;
     border:0px;
     border-left:3px solid #7d8f91;
@@ -50,7 +50,7 @@ display:none;
 
 
 #testimonials_content_l{
-   width:610px; height:800px; position:relative; margin-left:20px; padding:0; background:#eafcff; border:2px solid #a6b8bc;
+   width:610px; height:350px; position:relative; margin-left:20px; padding:0; background:#eafcff; border:2px solid #a6b8bc;
     color:#0f4b56;
     text-align:justify; font-size:16px;
 
