@@ -6,7 +6,7 @@
 
 #slidePanel .phone .number { position: relative; height:36px; width:300px; top:25px; left:35px;float:left;
     font-weight:bold;
-    font-size:26px;
+    font-size:24px;
 }
 
 #slidePanel .email { position: relative; left:600px; top:190px; height:67px; width:343px;background-image: url(/images/contact_us/roundrect.png);}

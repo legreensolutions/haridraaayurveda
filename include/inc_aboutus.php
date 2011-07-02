@@ -15,21 +15,21 @@ Welcome to HARIDRAA Ayurveda. A centre of excellence providing tailor made treat
 
 
 $head_treatments_available = 'Treatments Available';
-$left_treatments_available = 'Ahyangam(General Body Massage)
+$left_treatments_available = 'Abhyangam(General Body Massage)
 Swedanam(Steam Bath)
 Nasyam
 Pizhichil(Rejuvenation Therapy)
 Sirodhara
 Udwarthanam(Fat Reduction)
 Potala Swedanam(Kizhi)
-Patra Rotala Swedanam
+Patra Potala Swedanam
 Njavara Kizhi
 ';
 $right_treatments_available = 'Weight Reduction Treatments
 Stress Relieving Treatments
 Detoxification Treatments
 Rejuvination Treatments
-Anti Aging Treatments
+Anti Ageing Treatments
 Wellness Treatments';
 ?>
 

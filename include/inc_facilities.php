@@ -24,8 +24,8 @@ Medicines using for the treatment are manufactured under the guidance of senior 
 <span class="topic_head">FACULTY</span>
 Haridraa Ayurveda has been conceived and created by a group of young, aspiring Ayurvedic graduates with established out practice and a great vision.
 
-<b>Dr.VIDYADHARAN A.V. B.A.M.S</b>
-A clinician of good repute in the field, specialized in the branch of  nadi chikitsa.
+<b>Dr.VIDYADHARAN A.V. B.A.M.S, Ph.D</b>
+A clinician of good repute in the field, specialized in the branch of  nadi chikitsa. Winner of Management Excellence Award 2011.
 
 <b>Dr. ASHA M PILLAI B.A.M.S</b>
 A graduate, researching women\'s health care and beauty enhancing therapies for the last one decade.
@@ -33,7 +33,7 @@ A graduate, researching women\'s health care and beauty enhancing therapies for 
 <b>Dr. MAHESH KOLAPPILLY B.A.M.S</b>
 A young Ayurvedic graduate with an established out patient clinician, halling from a family of traditional vaidyas and a specialist in the field of pediatric and skin diseases.
 
-<b>Dr. SAJI SRIDHAR. B.A.M.S (Ay)</b>
+<b>Dr. SAJI SRIDHAR. B.A.M.S, M.S(Ay)</b>
 A young doctor having post graduation in ayurveda specialized in Marma and Orthopedic and working as associated professor in Nangelil Ayurveda medical college, Kothamangalam.
 '); ?>
             </div>

@@ -2,7 +2,7 @@
     <div id="treatments_content_l">
 
             <div id="content">
-             <?php echo $this->gsconf->get_conf(CONF_TYPE_TEXT,'treatments_content','treatments','<b>AHYANGAM (GENERAL BODY MASSAGE)</b>
+             <?php echo $this->gsconf->get_conf(CONF_TYPE_TEXT,'treatments_content','treatments','<b>ABHYANGAM (GENERAL BODY MASSAGE)</b>
 Oleation or application of oil to the body. Rejuvenates the body, improves vitality of the body and relieve stress.
 
 <b>SWEDANAM (STEAM BATH)</b>
@@ -23,7 +23,7 @@ A technique of scrubbing the body with dry medicinal powder to reduce excess fat
 <b>POTALA SWEDANAM (KIZHI)</b>
 A method of massage and sudation by using cloth bags filled with herbal (medicinal) leaves, powder, Njavara rice.
 
-<b>PATRA ROTALA SWEDANAM</b>
+<b>PATRA POTALA SWEDANAM</b>
 Used in musculoskeletal disorders and inflammatory condition.
 
 <b>NJAVARA KIZHI</b>

@@ -38,7 +38,7 @@ $(function() {
                <?php echo $this->gsconf->get_conf(CONF_TYPE_TEXT,'news_content1_image','news','<IMG src="/images/news/gallery/award_for_excellence.jpg" alt="Ayurveda">'); ?>
             </div>
 
-             <?php echo $this->gsconf->get_conf(CONF_TYPE_TEXT,'news_content1','news'," Award for Excellence: Justice Narayana Kurup and Charies Dias MP presenting Consumer Protection Kerala's Management Excellence Award to Dr. A V Vidyadharan in Kochi on Sunday 18 April 2011"); ?>
+             <?php echo $this->gsconf->get_conf(CONF_TYPE_TEXT,'news_content1','news'," Award for Excellence: Justice Narayana Kurup and Charles Dias MP presenting Kerala's Management Excellence Award to Dr. A V Vidyadharan in Kochi on Sunday 18 April 2011"); ?>
              </div>
 
 
